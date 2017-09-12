@@ -59,6 +59,7 @@ public class PropertyBoxParserImpl extends AbstractBoxParser {
                 throw new RuntimeException(e);
             }
         } finally {
+
             try {
                 is.close();
             } catch (IOException e) {
